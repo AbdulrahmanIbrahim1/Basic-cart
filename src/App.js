@@ -4,6 +4,7 @@ import AppNavBar from './components/navbar';
 import Products from './components/products';
 import Cart from './components/cart';
 
+
 function App() {
   return (
     <div className="App">
