@@ -17,7 +17,7 @@ function AppNavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Link to="/" className='nav-link'>Products</Link>
+              <Link to="/" className='nav-link'>All Products</Link>
               <Link to="/cart" className='nav-link'>Cart - {cart.length} </Link>
             </Nav>
           </Navbar.Collapse>
