@@ -8,7 +8,6 @@ import { addToCart } from '../RTK/slices/cartSlice';
 
 
 function Products() {
-
   const products = useSelector((state) => state.products)
   console.log(products);
 
@@ -16,7 +15,8 @@ function Products() {
 
   useEffect(() => {
     dispatch(fetchProduct())
-  }, [])
+  }, [dispatch])
+  
   return (
     <Container style={{ paddingTop: "4.5rem" }}>
       <Row >
